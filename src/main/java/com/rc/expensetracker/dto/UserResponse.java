@@ -2,13 +2,11 @@ package com.rc.expensetracker.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@AllArgsConstructor
-@NoArgsConstructor
+import org.bson.types.ObjectId;
 @Data
-public class userRegister {
+@AllArgsConstructor
+public class UserResponse {
+    private String id;
     private String username;
-    private String password;
     private String email;
 }

@@ -13,12 +13,12 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document(collection = "expense")
-public class expense {
+public class Expense {
     private ObjectId id;
-    private ObjectId userid;
+    private ObjectId userId;
     private double amount;
     private String category;
     private String description;
     private LocalDateTime date;
-    private expenseType type;
+    private ExpenseType type;
 }

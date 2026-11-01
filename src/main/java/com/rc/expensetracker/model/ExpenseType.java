@@ -1,6 +1,6 @@
 package com.rc.expensetracker.model;
 
-public enum expenseType {
+public enum ExpenseType {
     CREDIT,
     DEBIT
 }
